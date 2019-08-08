@@ -4,9 +4,14 @@
   Dimensionality Reduction - which condenses a large number of features into a (usually much) smaller set of features
 
 ## Clustering
-   basic meaning
-   how the k-means algorithm works
-   find groupings of similar movies
+   K-Means
+   https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans
+   n_clusters : int, optional, default: 8 - The number of clusters to form as well as the number of centroids to generate.
+   init : {‘k-means++’, ‘random’ or an ndarray} - Method for initialization, defaults to ‘k-means++’:
+   ‘k-means++’ : selects initial cluster centers for k-mean clustering in a smart way to speed up convergence. See section Notes in k_init for more details.
+   ‘random’: choose k observations (rows) at random from data for the initial centroids.
+   If an ndarray is passed, it should be of shape (n_clusters, n_features) and gives the initial centers.
+   n_init : int, default: 10 - Number of time the k-means algorithm will be run with different centroid seeds. The final results will be the best output of n_init consecutive runs in terms of inertia.
 	
 ## Hierarchical and Density Based Clustering
    density based 'closeness' measures
