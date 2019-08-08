@@ -1,6 +1,6 @@
 # Unsupervised-Learning
-## Clustering - which groups data together based on similarities
-## Dimensionality Reduction - which condenses a large number of features into a (usually much) smaller set of features
+### Clustering - which groups data together based on similarities
+### Dimensionality Reduction - which condenses a large number of features into a (usually much) smaller set of features
 
 ## Clustering
    K-Means
