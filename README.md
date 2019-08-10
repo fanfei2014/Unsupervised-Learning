@@ -10,9 +10,10 @@
             ‘random': choose k observations (rows) at random from data for the initial centroids.
             If an ndarray is passed, it should be of shape (n_clusters, n_features) and gives the initial centers.
       n_init: Thw number of time the k-means algorithm will be run with different centroid seeds. The final results will be the best output of n_init consecutive runs in terms of inertia.
-   Elbow method - to determine the optimal k 
-   How K-Means works - 3 steps with the last two steps iterating until no change
-   Feature Scaling - standardizing & minmax scaler
+      
+    Elbow method - to determine the optimal k 
+    How K-Means works - 3 steps with the last two steps iterating until no change
+    Feature Scaling - standardizing & minmax scaler
 	
 ## Hierarchical Clustering
      single-link(the two closet points), 
