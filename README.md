@@ -16,10 +16,10 @@
     Feature Scaling - standardizing & minmax scaler
 	
 ## Hierarchical Clustering
-     single-link(the two closet points), 
-     complete-link(the two farthest points), 
-     average-link (the average distance for between each pair points of two clusters), 
-     ward
+     single-link (the two closet points between clusters
+     complete-link (the two farthest points between clusters 
+     average-link (the average distance for between each pair points of two clusters 
+     ward-method (the sum of the square distance of each point to the centroid of two clusters minus the sum of the square distance of each point to the self-centroid of each cluster)
 
 ## Density Based Clustering
 ## Gaussian Mixture Models and Cluster Validation
