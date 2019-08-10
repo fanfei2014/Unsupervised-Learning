@@ -1,0 +1,12 @@
+### K-Means 3 steps:
+1. Randomly place k-centroids amongst your data.
+Then repeat the following two steps until convergence (the centroids don't change):
+2. Look at the distance from each centroid to each point. Assign each point to the closest centroid.
+3. Move the centroid to the center of the points assigned to it.
+
+### Concerns with K-Means
+
+1. Concern: The random placement of the initial centroids may lead to non-optimal solutions.
+   Solution: Run the algorithm multiple times and choose the centroids that create the smallest average distance of the points to the centroids.
+2. Concern: Depending on the scale of the features, you may end up with different groupings of your points.
+   Solution: Scale the features using Standardizing, which will create features with mean 0 and standard deviation 1 before running the k-means algorithm; or MinMax Scaling, which will create features as the percantage of the maximum value between 0 and 1.
