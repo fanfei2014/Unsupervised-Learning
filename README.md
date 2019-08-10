@@ -16,9 +16,11 @@ If an ndarray is passed, it should be of shape (n_clusters, n_features) and give
 #### feature scaling - standardizing & minmax scaler
 	
 ## Hierarchical and Density Based Clustering
-   density based 'closeness' measures
-   how this can be used in traffic classification
-   anomaly detection - finding points that aren't like others in your dataset
+#### Hierarchical Clustering - 
+     single-link(the two closet points), 
+     complete-link(the two farthest points), 
+     average-link (the average distance for between each pair points of two clusters), 
+     ward
 	 
 ## Gaussian Mixture Models and Cluster Validation
    gaussian mixture models
