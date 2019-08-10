@@ -12,8 +12,8 @@
 If an ndarray is passed, it should be of shape (n_clusters, n_features) and gives the initial centers.
 #### n_init : int, default: 10 - Number of time the k-means algorithm will be run with different centroid seeds. The final results will be the best output of n_init consecutive runs in terms of inertia.
 #### elbow method - to determine the optimal k 
-#### how K-Means works
-#### feature scaling - standardizing & normalizing
+#### how K-Means works - 3 steps with the last two steps iterating until no change
+#### feature scaling - standardizing & minmax scaler
 	
 ## Hierarchical and Density Based Clustering
    density based 'closeness' measures
