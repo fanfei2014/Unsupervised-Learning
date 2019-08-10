@@ -20,6 +20,7 @@
      complete-link (the two farthest points between clusters 
      average-link (the average distance for between each pair points of two clusters 
      ward-method (the sum of the square distance of each point to the centroid of two clusters minus the sum of the square distance of each point to the self-centroid of each cluster)
+     https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html
 
 ## Density Based Clustering
 ## Gaussian Mixture Models and Cluster Validation
