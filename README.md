@@ -21,6 +21,12 @@
      average-link (the average distance for between each pair points of two clusters 
      ward-method (the sum of the square distance of each point to the centroid of two clusters minus the sum of the square distance of each point to the self-centroid of each cluster)
      https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html
+     Examples - clustering secreted protein families and to create clusters for different types of fungus
+                diagram of human gastrotestinal microbiome 
+     Advantages - hierarchical presentation is informative and provides an ability to visulize the relationship
+                  especially potent when there is a real hierarchical relationship in the dataset (e.g. evolutionary biology)
+     Disadvantages - snesitive to noise and outliers 
+                     computationally intensive 
 
 ## Density Based Clustering
 ## Gaussian Mixture Models and Cluster Validation
