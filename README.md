@@ -29,6 +29,16 @@
                      computationally intensive 
 
 ## Density Based Clustering
+     DBSACN - based on each point to look up neighbor points within a specific distance (epsilon) and determined by the number of points in a neighborhood (min_samples) for a point to be considered as a core point and the total as a cluster including the point itself. It will label each point as noisy point (-1), border point (0), and core point (1).
+     Examples - network traffic classification
+                temperature anomaly detection 
+     Advantages - no need to specify the number of clusters
+                  flexible in the size and shape of clusters
+		  able to exclude noise and outliers
+     Disadvantages - border points may be included in either reachable cluster
+                     facing difficulties finding clusters of varying densities
+     
+     
 ## Gaussian Mixture Models and Cluster Validation
    gaussian mixture models
    last of the clustering algorithms you will learn before moving to matrix decomposition methods
