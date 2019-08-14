@@ -40,8 +40,16 @@
      
      
 ## Gaussian Mixture Models and Cluster Validation
-   gaussian mixture models
-   last of the clustering algorithms you will learn before moving to matrix decomposition methods
+     https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html
+     Examples - nonparametric discovery of human routines from sensor data (e-reader, transportation velocity)
+                computer vision to detect background and foreground
+     Advantages - soft clustering (sample membership of multiple clustering)
+                  flexible in cluster shape
+     Disadvantages - sensitive to initialization values
+                     possible to converge to a local optimum, not overall
+		     slow convergence rate
+		    
+  
 
 ## Principal Component Analysis
    one of the most popular decomposition methods available today
