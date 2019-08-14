@@ -78,6 +78,9 @@
       https://scikit-learn.org/stable/modules/feature_selection.html
     Feature Extraction:
       Latent Features - extract new features from the original input data
+      Principal Component Analysis (PCA)
+      Independent Component Analysis (ICA) 
+      Random Projection
 	
 ## Random Projection and Independent Component Analysis
    independent component analysis
