@@ -38,7 +38,7 @@
      Disadvantages - border points may be included in either reachable cluster
                      facing difficulties finding clusters of varying densities
      
-## Gaussian Mixture Models and Cluster Validation
+## Gaussian Mixture Models 
      https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html
      Examples - nonparametric discovery of human routines from sensor data (e-reader, transportation velocity)
                 computer vision to detect background and foreground
@@ -48,21 +48,24 @@
                      possible to converge to a local optimum, not overall
 		     slow convergence rate
 
-## Clustering Validation
+## Cluster Validation
      External Indices - 
      Adjusted Rand Index (-1, 1), the closer to 1, the better the clustering algorithm match to the labeled dataset
      = (any pair in the same cluster in both algorithm and labled dataset + any pair in the different clusters in both algorithm and labeled dataset) / (N*(N-1)/2)
      http://faculty.washington.edu/kayee/pca/supp.pdf] 
          
      Internal Indices - 
-     Silhouette coefficient 
-     = the average of (average distance to samples in the closest clusters b - average distance to other samples in the same cluster a) / max(a,b)]
+     Silhouette coefficient, not a good indicator for density based clustering (DBSCAN), which uses DBCV as its internal index
+     = the average of 
+     (average distance to samples in the closest clusters b - average distance to other samples in the same cluster a) / max(a,b)]
 	
-      relative indices
-         compactness vs. separability
+     Relative Indices
+     Compactness vs. Separability
+     
   ## Clustering Process 
      feature selection / extraction (PCA below)
-     clustering algorithm selection & tuning   
+     clustering algorithm selection & tuning 
+     clustering validation
      results interpratation
       		    
   
