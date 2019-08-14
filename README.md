@@ -52,6 +52,7 @@
      External Indices - 
      Adjusted Rand Index (-1, 1), the closer to 1, the better the clustering algorithm match to the labeled dataset
      = (any pair in the same cluster in both algorithm and labled dataset + any pair in the different clusters in both algorithm and labeled dataset) / (N*(N-1)/2)
+     https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html
      http://faculty.washington.edu/kayee/pca/supp.pdf] 
          
      Internal Indices - 
