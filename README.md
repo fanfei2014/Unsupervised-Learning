@@ -64,17 +64,19 @@
      Compactness vs. Separability
      
   ## Clustering Process 
-     feature selection / extraction (PCA below)
-     clustering algorithm selection & tuning 
-     clustering validation
-     results interpratation
+     Feature selection / extraction (PCA below)
+     Clustering algorithm selection & tuning 
+     Clustering validation
+     Results interpratation
       		    
   
 
 ## Principal Component Analysis
-   one of the most popular decomposition methods available today
-   learn how matrix decomposition methods work conceptually
-   apply principal component analysis to images of handwritten digits to reduce the dimensionality of these images
+    Feature Selection:
+      Filter Methods - use a ranking or sorting algorithm to filter out those features that have less usefulness. Filter methods are based on discerning some inherent correlations among the feature data in unsupervised learning, or on correlations with the output variable in supervised settings. Filter methods are usually applied as a preprocessing step. Common tools for determining correlations in filter methods include: Pearson's Correlation, Linear Discriminant Analysis (LDA), and Analysis of Variance (ANOVA).
+      Wrapper Methods - testing features impact on the performance of a model. The idea is to "wrap" this procedure around your algorithm, repeatedly calling the algorithm using different subsets of features, and measuring the performance of each model. Cross-validation is used across these multiple tests. The features that produce the best models are selected. Clearly this is a computationally expensive approach for finding the best performing subset of features, since they have to make a number of calls to the learning algorithm. Common examples of wrapper methods are: Forward Search, Backward Search, and Recursive Feature Elimination.
+      https://scikit-learn.org/stable/modules/feature_selection.html
+   
 	
 ## Random Projection and Independent Component Analysis
    independent component analysis
