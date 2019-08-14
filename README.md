@@ -1,6 +1,6 @@
 # Unsupervised-Learning
 ## Clustering Process 
-     Feature Selection & Feature Extraction (PCA, ICA, Random Projection)
+     Dimentionality Reduce - Feature Selection & Feature Extraction (PCA, ICA, Random Projection)
      Clustering Algorithm Selection & Tuning (K-Menas, Hierarchical, Density-Based, Gaussian-Mixture)
      Clustering Validation (External Indices, Internal Indices)
      Results interpratation
