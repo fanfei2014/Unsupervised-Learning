@@ -78,7 +78,8 @@
       https://scikit-learn.org/stable/modules/feature_selection.html
     Feature Extraction:
       Latent Features - extract new features from the original input data
-      Principal Component Analysis (PCA)
+      Principal Component Analysis (PCA) - 
+      An advantage of Feature Extraction over Feature Selection is that the latent features (Principal Component) can be constructed to incorporate data from multiple features, and thus retain more information present in the various original inputs, than just losing that information by dropping many original inputs.Principal components are linear combinations of the original features in a dataset that aim to retain the most information in the original data.
       Independent Component Analysis (ICA) 
       Random Projection
 	
