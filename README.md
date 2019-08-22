@@ -120,9 +120,8 @@
 	style	Property returning a Styler object containing methods for building a styled HTML representation fo the DataFrame.
 	values	Return a Numpy representation of the DataFrame.
 
-     DataFrame Methods Methods
 
-Methods
+     DataFrame Methods Methods
 
 	abs()	Return a Series/DataFrame with absolute numeric value of each element.
 	add(other[, axis, level, fill_value])	Addition of dataframe and other, element-wise (binary operator add).
